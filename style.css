@@ -16,6 +16,7 @@ body{
 .top-nav{
     overflow: hidden;    
     margin-right: 100px;
+    padding-top: 1%;
 }
 
 .top-nav a{
@@ -24,17 +25,71 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 18px;    
+    font-style: normal;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    color: #6B6E70;
+}
+
+.top-nav button{
+    float: right;
+    /* background-color: #3466AA; */
+    /* border: none; */
+    width: 120px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 25px
+}
+
+.top-nav .register{
+    border: 2px solid #3466AA;
+    background-color: #ffffff;
+    color: #3466AA;
+}
+
+.top-nav .login{
+    border: 2px solid #3466AA;
+    background-color: #3466AA;
+    color: #ffffff;
 }
 
 
 .left-page{
     width: 40%;
     float: left;
-    background-color: yellow;
+    /* background-color: yellow; */
+}
+
+.left-page h1{    
+    color: #222629;
+    font-style: normal;    
+    font-weight: 800;
+    line-height: 72px;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    display: block;
+    margin-left: 100px;
+    margin-top: 30%;
+}
+
+.left-page p{
+    color: #6B6E70;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: block;    
+    font: "Poppins",sans-serif;
+    font-size: 18px;
 }
 
 .right-page{
     width: 60%;
     float: right;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
 }
