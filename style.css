@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+.landing-page{
+    background-color: #ffffff;
+    background-size: 100%;
+}
+
+.landing-page, .left-page, .right-page{
+    height: 100%;
+    overflow: hidden;
+}
+
+.left-page{
+    width: 40%;
+    float: left;
+    background-color: yellow;
+}
+
+.right-page{
+    width: 60%;
+    float: right;
+    background-color: rebeccapurple;
+}
