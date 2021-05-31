@@ -12,6 +12,21 @@ body{
     overflow: hidden;
 }
 
+/* Navbar CSS Style */
+.top-nav{
+    overflow: hidden;    
+    margin-right: 100px;
+}
+
+.top-nav a{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;    
+}
+
+
 .left-page{
     width: 40%;
     float: left;
