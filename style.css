@@ -88,6 +88,30 @@ body{
     font-size: 18px;
 }
 
+.left-page button{
+    /* float: left; */
+    /* background-color: #3466AA; */
+    /* border: none; */
+    width: 150px;
+    color: white;
+    padding: 10px;    
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 25px;    
+}
+
+.left-page .learn-more{
+    border: 2px solid #3466AA;
+    background-color: #3466AA;
+    color: #ffffff;
+    margin-top: 5%;
+    margin-left: 16%;
+    font-family: "Poppins", sans-serif;
+}
+
 .right-page{
     width: 60%;
     float: right;
