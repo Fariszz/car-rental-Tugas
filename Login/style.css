@@ -16,6 +16,7 @@ body{
   transform: translate(-120%,-40%);
   color: black;
   font-family :"Poppins","sans-seriff";
+  
 }
 
 .kotakteks{
@@ -33,7 +34,7 @@ body{
   outline: none;
   background: none;
   color:black;
-  font-size: 18px;
+  font-size: 24px;
   width: 80%;
   float: left;
   margin: 0 10px;
@@ -41,14 +42,18 @@ body{
 }
 .Sigin{
   width: 100%;
-  background: rgb(0, 0, 255);
-  border: none;
+  background: #6DAFFE;
+  border-radius: 50px;
   color: #fff;
   padding: 10px;
   font-size: 20px;
   cursor: pointer;
   margin: 12px 0;
   font-family :"Poppins","sans-seriff";
+}
+.newacc{
+  font-size: 20px;
+  color: black;
 }
 .left-page{
   width: 40%;
