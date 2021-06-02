@@ -1,0 +1,65 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family :"Poppins","sans-seriff";
+  background:#fff;
+  
+}
+.login-kotak-kotak{
+  width: 340px;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  padding: 5%;
+  position: absolute;
+  transform: translate(-120%,-40%);
+  color: black;
+  font-family :"Poppins","sans-seriff";
+}
+
+.kotakteks{
+  width: 100%;
+  overflow:auto;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid black;
+  font-family :"Poppins","sans-seriff";
+}
+
+.kotakteks input{
+  border: none;
+  outline: none;
+  background: none;
+  color:black;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+  font-family :"Poppins","sans-seriff";
+}
+.Sigin{
+  width: 100%;
+  background: rgb(0, 0, 255);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 12px 0;
+  font-family :"Poppins","sans-seriff";
+}
+.left-page{
+  width: 40%;
+  float: left;
+  background-color: #fff;
+}
+
+.right-page{
+  width: 5%;
+  float: right;
+  position: absolute;
+  transform: translate(800%,100%);
+  background-color: #fff;
+}
