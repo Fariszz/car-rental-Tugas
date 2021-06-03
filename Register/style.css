@@ -11,7 +11,7 @@ body{
   left: 10%;
   padding: 5%;
   color: black;
-  font-family :"Poppins","sans-seriff";
+  font-family :"Poppins",sans-serif;
   
 }
 
@@ -22,7 +22,7 @@ body{
   padding: 8px 0;
   margin: 8px 0;
   border-bottom: 1px solid black;
-  font-family :"Poppins","sans-seriff";
+  font-family :"Poppins",sans-serif;
 }
 
 .kotakteks input{
@@ -34,7 +34,7 @@ body{
   width: 80%;
   float: left;
   margin: 0 10px;
-  font-family :"Poppins","sans-seriff";
+  font-family :"Poppins",sans-serif;
 }
 .Sigin{
   width: 100%;
@@ -45,24 +45,30 @@ body{
   font-size: 20px;
   cursor: pointer;
   margin: 12px 0;
-  font-family :"Poppins","sans-seriff";
+  font-family :"Poppins",sans-serif;
+  border: none;
 }
 .newacc{
   font-size: 20px;
   color: black;
 }
 .left-page{
-  width: 300%;
+  width: 60%;
   float: left;
   background-color: #fff;
+  margin-left: 5%;
+}
+.right-page{
+  width: 40%;
+  float: left;
 }
 
 .right-page img{
-  width: 120%;
+  width: 40%; 
   height: 70%;
-  float: right;
+  float: left;
   position: absolute;
   background-color: #fff;
-  margin-top: -50%;
-  margin-left: 10%;
+  margin-top: -40%;
+  margin-left: 40%; 
 }
