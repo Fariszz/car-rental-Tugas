@@ -1,0 +1,68 @@
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.login-kotak-kotak{
+  width: 340px;
+  height: 60%;
+  top: 40%;
+  left: 10%;
+  padding: 5%;
+  color: black;
+  font-family :"Poppins","sans-seriff";
+  
+}
+
+.kotakteks{
+  width: 100%;
+  overflow:auto;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid black;
+  font-family :"Poppins","sans-seriff";
+}
+
+.kotakteks input{
+  border: none;
+  outline: none;
+  background: none;
+  color:black;
+  font-size: 24px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+  font-family :"Poppins","sans-seriff";
+}
+.Sigin{
+  width: 100%;
+  background: #6DAFFE;
+  border-radius: 50px;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 12px 0;
+  font-family :"Poppins","sans-seriff";
+}
+.newacc{
+  font-size: 20px;
+  color: black;
+}
+.left-page{
+  width: 300%;
+  float: left;
+  background-color: #fff;
+}
+
+.right-page img{
+  width: 120%;
+  height: 70%;
+  float: right;
+  position: absolute;
+  background-color: #fff;
+  margin-top: -50%;
+  margin-left: 10%;
+}
