@@ -2,20 +2,16 @@
 body{
   margin: 0;
   padding: 0;
-  font-family :"Poppins","sans-seriff";
-  background:#fff;
-  
+
 }
 .login-kotak-kotak{
   width: 340px;
-  height: 50%;
-  top: 50%;
-  left: 50%;
+  height: 60%;
+  top: 40%;
+  left: 10%;
   padding: 5%;
-  position: absolute;
-  transform: translate(-120%,-40%);
   color: black;
-  font-family :"Poppins","sans-seriff";
+  font-family :"Poppins",sans-serif;
   
 }
 
@@ -26,7 +22,7 @@ body{
   padding: 8px 0;
   margin: 8px 0;
   border-bottom: 1px solid black;
-  font-family :"Poppins","sans-seriff";
+  font-family :"Poppins",sans-serif;
 }
 
 .kotakteks input{
@@ -38,7 +34,7 @@ body{
   width: 80%;
   float: left;
   margin: 0 10px;
-  font-family :"Poppins","sans-seriff";
+  font-family :"Poppins",sans-serif;
 }
 .Sigin{
   width: 100%;
@@ -49,22 +45,31 @@ body{
   font-size: 20px;
   cursor: pointer;
   margin: 12px 0;
-  font-family :"Poppins","sans-seriff";
+  font-family :"Poppins",sans-serif;
+  border: none;
 }
 .newacc{
   font-size: 20px;
   color: black;
 }
 .left-page{
-  width: 40%;
+  width: 100%;
+  margin-top: 10%;
   float: left;
   background-color: #fff;
+  margin-left: 10%;
+}
+.right-page{
+  width: 40%;
+  float: left;
 }
 
-.right-page{
-  width: 5%;
-  float: right;
+.right-page img{
+  width: 40%; 
+  height: 70%;
+  float: left;
   position: absolute;
-  transform: translate(800%,100%);
   background-color: #fff;
+  margin-top: -30%;
+  margin-left: 40%; 
 }
