@@ -54,9 +54,10 @@ body{
 }
 .left-page{
   width: 60%;
+  margin-top: 10%;
   float: left;
   background-color: #fff;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 .right-page{
   width: 40%;
@@ -69,6 +70,6 @@ body{
   float: left;
   position: absolute;
   background-color: #fff;
-  margin-top: -40%;
+  margin-top: -35%;
   margin-left: 40%; 
 }
