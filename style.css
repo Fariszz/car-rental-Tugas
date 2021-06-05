@@ -31,31 +31,48 @@ body{
     color: #6B6E70;
 }
 
-.top-nav button{
+/* .top-nav button{
     float: right;
-    /* background-color: #3466AA; */
-    /* border: none; */
     width: 120px;
     color: white;
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    /* display: inline-block; */
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 25px
+} */
+
+/* .top-nav a:link, a:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
-.top-nav .register{
+.top-nav a:hover, a:active{    
+    background-color: red;
+} */
+.top-nav a{
+    margin: 10px;
+}
+
+.register-btn{
     border: 2px solid #3466AA;
     background-color: #ffffff;
     color: #3466AA;
+    border-radius: 50px;
+    width: 80px;
 }
 
-.top-nav .login{
+.top-nav .login-btn{
     border: 2px solid #3466AA;
     background-color: #3466AA;
     color: #ffffff;
+    border-radius: 50px;
+    width: 80px;
 }
 
 
