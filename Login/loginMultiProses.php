@@ -2,7 +2,7 @@
     include "koneksi.php";
 
     $username = $_POST['username'];
-    $password = md5($_POST['password']);
+    $password = ($_POST['password']);
 
     $query = "SELECT * FROM sigin WHERE username='$username' AND password='$password'";
     $result = mysqli_query($connect, $query);
@@ -10,7 +10,7 @@
 
     if ($row['level'] == 1) {
         echo "Anda berhasil login. silahkan menuju ";?>
-        <a href="index.html">Dassboard</a>
+        <a href="/Dashboard/Home/index.html">Dassboard</a>
     <?php
     else{
         echo "Anda gagal login. silahkan "; ?>
