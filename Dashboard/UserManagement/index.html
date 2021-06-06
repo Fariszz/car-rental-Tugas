@@ -35,23 +35,27 @@
         <div class="left-content">
             <div class="card">
                 <!-- <p>Card 1</p> -->
-                <img src="img/people.svg" alt="People" style="width: 500px;">
+                <img src="img/addUser.svg" alt="People" style="width: 500px;">
             </div>
         </div>
         <div class="right-content">
-            <form action="" method="post">
+            <form action="insertProses.php" method="GET">
                 <div class="card">
                     <!-- <p>Card 2</p> -->
-                    <input type="text" name="kodeMobil" class="inputBox" placeholder="NIK Customer">
+                    <input type="text" name="IDCustomer" class="inputBox" placeholder="ID Customer">
                 </div>
                 <div class="card">
-                    <input type="text" name="TipeMobil" class="inputBox" placeholder="Nama Customer">
+                    <!-- <p>Card 2</p> -->
+                    <input type="text" name="nikCustomer" class="inputBox" placeholder="NIK Customer">
                 </div>
                 <div class="card">
-                    <input type="text" name="MerkMobil" class="inputBox" placeholder="Alamat Customer">
+                    <input type="text" name="namaCustomer" class="inputBox" placeholder="Nama Customer">
                 </div>
                 <div class="card">
-                    <input type="number" name="StokMobil" class="inputBox" placeholder="Nomor HP">
+                    <input type="text" name="alamatCustomer" class="inputBox" placeholder="Alamat Customer">
+                </div>
+                <div class="card">
+                    <input type="text" name="nomorCustomer" class="inputBox" placeholder="Nomor HP">
                 </div>
                 <div class="image_upload">
                     <input type="file" name="" id="file">
@@ -60,7 +64,7 @@
                     </label>
                 </div>
                 <div class="submit-button">
-                    <input type="submit" id="submit">
+                    <input type="submit" name="kirim" id="submit">
                     <label for="submit" class="submit-btn">
                         SUBMIT
                     </label>
