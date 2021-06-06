@@ -8,11 +8,15 @@
     $result = mysqli_query($connect, $query);
     $row = mysqli_fetch_assoc($result);
 
-    if ($row['level'] == 1) {
+    if ($row['LEVEL'] == 1) {
         echo "Anda berhasil login. silahkan menuju ";?>
-        <a href="/Dashboard/Home/index.html">Dassboard</a>
+        <a href="/Dashboard/Home/index.html">Halaman HOME</a>
     <?php
-    else{
+    }else if($row['LEVEL'] == 2){
+        echo "Anda berhasil login. silahkan menuju "; ?>
+        <a href="##LOGIN ADMIN##">Halaman HOME</a>
+    <?php
+    }else{
         echo "Anda gagal login. silahkan "; ?>
         <a href="Login_Awal.html">Login kembali</a>
     <?php
