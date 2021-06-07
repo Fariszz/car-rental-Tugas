@@ -39,38 +39,38 @@
             </div>
         </div>
         <div class="right-content">
-            <form action="" method="post">
+            <form action="insertProses.php" method="GET">
                 <div class="card">
                     <!-- <p>Card 2</p> -->
-                    <input type="text" name="kodeMobil" class="inputBox" placeholder="Kode Sewa">
+                    <input type="text" name="kodeSewa" class="inputBox" placeholder="Kode Sewa">
                 </div>
                 <div class="card">
-                    <input type="text" name="TipeMobil" class="inputBox" placeholder="Kode Mobil">
+                    <input type="text" name="kodeMobil" class="inputBox" placeholder="Kode Mobil">
                 </div>
                 <div class="card">
-                    <input type="text" name="MerkMobil" class="inputBox" placeholder="ID Customer">
+                    <input type="text" name="IdCustomer" class="inputBox" placeholder="ID Customer">
                 </div>
                 <div class="card">
-                    <input type="number" name="StokMobil" class="inputBox" placeholder="Harga Sewa">
+                    <input type="number" name="hargaSewa" class="inputBox" placeholder="Harga Sewa">
                 </div>
                 <div class="date-pick">
                     <div class="card">
-                        <input type="date" name="StokMobil" class="inputBox" placeholder="Tanggal Sewa" style="color: #DDE2FF; font-family: 'Poppins',sans-serif; padding-left: 30px;">
+                        <input type="date" name="tanggalSewa" class="inputBox" placeholder="Tanggal Sewa" style="color: #DDE2FF; font-family: 'Poppins',sans-serif; padding-left: 30px;">
                     </div>
                     <div class="card">
-                        <input type="date" name="StokMobil" class="inputBox" placeholder="Tanggal Kembali" style="color: #DDE2FF; font-family: 'Poppins',sans-serif; padding-left: 30px;">
+                        <input type="date" name="tanggalKembali" class="inputBox" placeholder="Tanggal Kembali" style="color: #DDE2FF; font-family: 'Poppins',sans-serif; padding-left: 30px;">
                     </div>
                 </div>                
-                <div class="card">
-                    <input type="number" name="StokMobil" class="inputBox" placeholder="Harga Sewa">
-                </div>                
+                <!-- <div class="card">
+                    <input type="number" name="hargaSewa" class="inputBox" placeholder="Harga Sewa">
+                </div>                 -->
                 <div class="submit-button">
-                    <input type="submit" id="submit">
+                    <input type="submit" name="kirim" id="submit">
                     <label for="submit" class="submit-btn">
                         SUBMIT
                     </label>
                 </div>
-            </form>            
+            </form>                      
         </div>
     </div>
 </body>

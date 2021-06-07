@@ -126,11 +126,15 @@ input[type="number"]{
     padding-left: 30px;   
 }
 
-input[type="date"]{
+.date-pick input[type="date"]{
     color: #DDE2FF;    
     font-family: "Poppins",sans-serif;
-    padding-left: 30px;         
+    padding-left: 30px;     
+        
 }
+
+
+
 
 .inputBox{
     display: block;
