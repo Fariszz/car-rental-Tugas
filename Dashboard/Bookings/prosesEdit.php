@@ -15,7 +15,7 @@
         echo "Berhasil update ke database";
         ?>
 
-    <a href="carTable.php"> Lihat Data di Tabel</a>
+    <a href="bookingTable.php"> Lihat Data di Tabel</a>
     <?php 
         }else{
             echo "Gagal update data ". mysqli_error($connect);
