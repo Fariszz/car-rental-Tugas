@@ -1,8 +1,8 @@
 <?php 
     include "koneksi.php";
 
-    $id = isset($_GET['kode_mobil']);    
-    $sql = "DELETE FROM mobil WHERE kode_mobil= '$id'";
+    $id = $_GET['id'];    
+    $sql = "DELETE FROM mobil WHERE kode_mobil='$id'";
     $result = mysqli_query($connect, $sql);
 
     if ($result) {

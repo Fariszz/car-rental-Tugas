@@ -29,7 +29,7 @@
                 while ($row = mysqli_fetch_array($result)) {                                
         ?>
         <tr>
-            <td> <?php echo $row["kode_mobil"]?> </td>
+            <td> <?php echo $row['kode_mobil']?> </td>
             <td> <?php echo $row["tipe_mobil"]?> </td>
             <td> <?php echo $row["merk_mobil"]?> </td>
             <td> <?php echo $row["stok_mobil"]?> </td>
