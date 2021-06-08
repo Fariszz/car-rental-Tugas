@@ -15,6 +15,8 @@
             <th> Tipe Mobil </th>
             <th> Merk Mobil</th>
             <th> Stok Mobil</th>
+            <th> </th>
+            <th> </th>
         </tr>
         </thead>        
         <?php 
@@ -27,11 +29,12 @@
                 while ($row = mysqli_fetch_array($result)) {                                
         ?>
         <tr>
-            <td> <?php echo $row["kode_mobil"] ?> </td>
-            <td> <?php echo $row["tipe_mobil"] ?> </td>
-            <td> <?php echo $row["merk_mobil"] ?> </td>
-            <td> <?php echo $row["stok_mobil"] ?> </td>
-
+            <td> <?php echo $row["kode_mobil"]?> </td>
+            <td> <?php echo $row["tipe_mobil"]?> </td>
+            <td> <?php echo $row["merk_mobil"]?> </td>
+            <td> <?php echo $row["stok_mobil"]?> </td>
+            <td>  <a href="editForm.php?id=<?php echo $row['kode_mobil']?>"> Update </a></td>
+            <td> <a href="hapus.php?id=<?php echo $row['kode_mobil'];?>">Hapus</a> </td>
         <?php          
                 }
             }else{
