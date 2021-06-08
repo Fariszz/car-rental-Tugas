@@ -13,7 +13,7 @@
 
     <?php
         include "koneksi.php";
-        $id = isset($_GET['kode_mobil']);
+        $id = $_GET['id'];
         $query = "SELECT * FROM mobil WHERE kode_mobil='$id'";
         $result = mysqli_query($connect, $query);
     ?>
