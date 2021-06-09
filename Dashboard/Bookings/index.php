@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/car-rental-Tugas/Dashboard/UserManagement/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
@@ -36,6 +36,16 @@
             <div class="card">
                 <!-- <p>Card 1</p> -->
                 <img src="img/Booking.svg" alt="Booking" style="width: 500px;">
+            </div>
+            <div class="card">
+                <div class="submit-button">
+                    <a href="bookingTable.php">
+                        <input type="submit"  id="submit">
+                            <label for="submit" class="submit-btn-list">
+                                Cek Daftar Booking
+                            </label>
+                    </a>                    
+                </div>
             </div>
         </div>
         <div class="right-content">

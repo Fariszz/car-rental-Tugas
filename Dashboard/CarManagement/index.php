@@ -41,10 +41,12 @@
             </div>
             <div class="card">
                 <div class="submit-button">
-                    <input type="submit" name="kirim" id="submit">
-                    <label for="submit" class="submit-btn">
-                        SUBMIT
-                    </label>
+                    <a href="carTable.php">
+                        <input type="submit"  id="submit">
+                            <label for="submit" class="submit-btn-list">
+                                Cek Daftar Mobil
+                            </label>
+                    </a>                    
                 </div>
             </div>
         </div>        

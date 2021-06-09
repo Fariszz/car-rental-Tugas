@@ -36,3 +36,7 @@ tr:nth-child(even){
 .content-table td {
     padding: 12px 15px;
 }
+
+.list-user{
+    padding-top: 20%;
+}
