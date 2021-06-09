@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="right-content">
-            <form action="prosesEdit.php" method="GET">
+            <form action="prosesEdit.php" method="POST">
             <?php 
                 while ($row = mysqli_fetch_array($result)){
             ?>

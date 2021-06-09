@@ -1,11 +1,11 @@
 <?php 
     include "koneksi.php";
 
-    $id = $_GET['IDCustomer'];
-    $nik = $_GET['nikCustomer'];
-    $nama = $_GET['namaCustomer'];
-    $alamat = $_GET['alamatCustomer'];     
-    $nomor = $_GET['nomorCustomer'];    
+    $id = $_POST['IDCustomer'];
+    $nik = $_POST['nikCustomer'];
+    $nama = $_POST['namaCustomer'];
+    $alamat = $_POST['alamatCustomer'];     
+    $nomor = $_POST['nomorCustomer'];    
 
     $query = "UPDATE customer SET id_customer = '$id', nik_customer = '$nik', nama_customer = '$nama', alamat_customer = '$alamat', noHp_customer = '$nomor'";
     $result = mysqli_query($connect, $query);

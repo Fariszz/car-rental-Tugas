@@ -41,9 +41,8 @@
             </div>
             <div class="card">
                 <div class="submit-button">
-                    <a href="carTable.php">
-                        <input type="submit"  id="submit">
-                            <label for="submit" class="submit-btn-list">
+                    <a href="carTable.php">                        
+                            <label class="submit-btn-list">
                                 Cek Daftar Mobil
                             </label>
                     </a>                    
@@ -51,7 +50,7 @@
             </div>
         </div>        
         <div class="right-content">
-            <form action="insertProses.php" method="GET">
+            <form action="insertProses.php" method="POST">
                 <div class="card">
                     <!-- <p>Card 2</p> -->
                     <input type="text" name="kodeMobil" class="inputBox" placeholder="Kode Mobil">

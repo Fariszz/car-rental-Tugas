@@ -40,9 +40,8 @@
             </div>
             <div class="card">
                 <div class="submit-button">
-                    <a href="userTable.php">
-                        <input type="submit"  id="submit">
-                            <label for="submit" class="submit-btn-list">
+                    <a href="userTable.php">                        
+                            <label class="submit-btn-list">
                                 Cek Daftar User
                             </label>
                     </a>                    
@@ -50,7 +49,7 @@
             </div>
         </div>
         <div class="right-content">
-            <form action="insertProses.php" method="GET">
+            <form action="insertProses.php" method="POST">
                 <div class="card">
                     <!-- <p>Card 2</p> -->
                     <input type="text" name="IDCustomer" class="inputBox" placeholder="ID Customer">
@@ -67,13 +66,7 @@
                 </div>
                 <div class="card">
                     <input type="text" name="nomorCustomer" class="inputBox" placeholder="Nomor HP">
-                </div>
-                <div class="image_upload">
-                    <input type="file" name="" id="file">
-                    <label for="file" class="input_upload">
-                        Choose Image
-                    </label>
-                </div>
+                </div>  
                 <div class="submit-button">
                     <input type="submit" name="kirim" id="submit">
                     <label for="submit" class="submit-btn">

@@ -39,9 +39,8 @@
             </div>
             <div class="card">
                 <div class="submit-button">
-                    <a href="bookingTable.php">
-                        <input type="submit"  id="submit">
-                            <label for="submit" class="submit-btn-list">
+                    <a href="bookingTable.php">                        
+                            <label class="submit-btn-list">
                                 Cek Daftar Booking
                             </label>
                     </a>                    

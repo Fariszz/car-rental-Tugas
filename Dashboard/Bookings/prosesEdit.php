@@ -1,12 +1,12 @@
 <?php 
     include "koneksi.php";
 
-    $id = $_GET['kodeMobil'];
-    $idMobil = $_GET['kodeMobil'];
-    $idCustomer = $_GET['IdCustomer'];
-    $sewa = $_GET['hargaSewa'];     
-    $tglSewa = $_GET['tanggalSewa'];
-    $tglKembali = $_GET['tanggalKembali'];
+    $id = $_POST['kodeMobil'];
+    $idMobil = $_POST['kodeMobil'];
+    $idCustomer = $_POST['IdCustomer'];
+    $sewa = $_POST['hargaSewa'];     
+    $tglSewa = $_POST['tanggalSewa'];
+    $tglKembali = $_POST['tanggalKembali'];
 
     $query = "UPDATE sewa SET kode_sewa = '$id', kode_mobil = '$idMobil', id_customer = '$idCustomer', harga_sewa = '$sewa', tgl_sewa = '$tglSewa', tglKembali_sewa = '$tglKembali' ";
     $result = mysqli_query($connect, $query);

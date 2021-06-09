@@ -1,12 +1,12 @@
 <?php 
     include "koneksi.php";
 
-    if (isset($_GET['kirim'])) {
-        $id = $_GET['IDCustomer'];
-        $nik = $_GET['nikCustomer'];
-        $nama = $_GET['namaCustomer'];
-        $alamat = $_GET['alamatCustomer'];
-        $nohp = $_GET['nomorCustomer'];
+    if (isset($_POST['kirim'])) {
+        $id = $_POST['IDCustomer'];
+        $nik = $_POST['nikCustomer'];
+        $nama = $_POST['namaCustomer'];
+        $alamat = $_POST['alamatCustomer'];
+        $nohp = $_POST['nomorCustomer'];
         
         $sql = "INSERT INTO customer(id_customer, nik_customer, nama_customer, alamat_customer, noHp_customer)
         VALUES('$id', '$nik', '$nama', '$alamat', '$nohp')";

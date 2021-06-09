@@ -1,11 +1,11 @@
 <?php 
     include "koneksi.php";
 
-    if (isset($_GET['kirim'])) {
-        $id = $_GET['kodeMobil'];
-        $tipe = $_GET['tipeMobil'];
-        $merk = $_GET['merkMobil'];
-        $stok = $_GET['stokMobil'];        
+    if (isset($_POST['kirim'])) {
+        $id = $_POST['kodeMobil'];
+        $tipe = $_POST['tipeMobil'];
+        $merk = $_POST['merkMobil'];
+        $stok = $_POST['stokMobil'];        
         
         $sql = "INSERT INTO mobil(kode_mobil, tipe_mobil, merk_mobil, stok_mobil)
         VALUES('$id', '$tipe', '$merk', '$stok')";
