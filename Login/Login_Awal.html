@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-<form action="validasi.js" method="POST" onsubmit="Validasi.js">
+<form action="LoginUser.php" method="POST" onsubmit="Validasi.js">
  <form action="loginMultiProses.php" method="POST">
 
  <div class="left-page">
@@ -27,7 +27,7 @@
   </div>
   
   <div class="newacc">
-  <a href="/car-rental-Tugas/Register/index.html">Create New Acc</a>
+  <a href="/Register/index.html">Create New Acc</a>
   </div>
 </div>
 </div>
@@ -44,3 +44,17 @@
   </body>
 
 </html>
+
+<script>
+
+function validasi() {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+  if (username != "" && password !="") {
+    return true;
+  }else{
+    alert('Silahkan mengisi data dengan lengkap');
+  }
+}
+
+</script>
