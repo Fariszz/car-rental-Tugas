@@ -3,10 +3,16 @@ body{
 }
 
 .landing-page{
-    background-color: #ffffff;
-    /* background-color: #00296F; */
+    /* background-color: #ffffff; */
+    /* background-color: #211268; */
+    /* background: linear-gradient(110deg, #140949 45%, #211268 25%); */
+    background: #140949;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3508FF, #140949);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3508FF, #140949); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-size: 100%;
 }
+
 
 .landing-page, .left-page, .right-page{
     height: 100%;
@@ -29,8 +35,8 @@ body{
     font-style: normal;
     font-family: "Poppins",sans-serif;
     font-weight: 500;
-    color: #6B6E70;
-    /* color: #ffffff; */
+    /* color: #6B6E70; */
+    color: #ffffff;
 }
 
 /* .top-nav button{
@@ -61,9 +67,23 @@ body{
     margin: 10px;
 }
 
+.center-nav{
+    text-align: center;
+    margin-right: 40%;
+    
+}
+
+.center-nav a{
+    font-size: 25px;    
+}
+
+.center-nav:hover a{
+    color: red;
+}
+
 .register-btn{
-    border: 2px solid #3466AA;
-    background-color: #ffffff;
+    border: 2px solid #FFA400;
+    /* background-color: #ffffff; */
     /* background-color: #1c2e4a; */
     color: #3466AA;
     border-radius: 50px;
@@ -71,8 +91,8 @@ body{
 }
 
 .top-nav .login-btn{
-    border: 2px solid #3466AA;
-    background-color: #3466AA;
+    border: 2px solid #FFA400;
+    background-color: #FFA400;
     color: #ffffff;
     border-radius: 50px;
     width: 80px;
@@ -86,8 +106,8 @@ body{
 }
 
 .left-page h1{    
-    color: #222629;
-    /* color: #ffffff; */
+    /* color: #222629; */
+    color: #ffffff;
     font-style: normal;    
     font-weight: 800;
     line-height: 72px;
@@ -99,8 +119,8 @@ body{
 }
 
 .left-page p{
-    color: #6B6E70;
-    /* color: #ffffff; */
+    /* color: #6B6E70; */
+    color: #ffffff;
     font-weight: 500;
     margin-left: 100px;
     margin-right: 10%;
@@ -126,9 +146,11 @@ body{
 }
 
 .left-page .learn-more{
-    border: 2px solid #3466AA;
-    background-color: #3466AA;
+    border: 1px solid #FFA400;
+    /* background-color: #3466AA; */
+    background-color: #FFA400;
     color: #ffffff;
+    font-weight: 600;    
     margin-top: 5%;
     margin-left: 16%;
     font-family: "Poppins", sans-serif;
@@ -139,3 +161,203 @@ body{
     float: right;
     /* background-color: rebeccapurple; */
 }
+
+/* Test Wave */
+
+.custom-shape-divider-bottom-1623349078 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1623349078 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1623349078 .shape-fill {
+    fill: #FFFCF6;
+}
+
+.service{
+    width: 100%;
+    /* background: #ffffff; */
+    background: #FFFCF6;
+    height: 70%;
+    
+}
+
+.container-service{        
+    height: 1000px;
+    /* border: 1px solid red; */
+    margin: 30 auto;
+}
+
+.container-service h1{
+    margin: auto;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #232228;
+}
+
+.col-order{    
+    width: 250px;
+    height: 300px;
+    /* background-color: yellow; */
+    align-items: center;
+    float: left;
+    /* border: 1px solid black; */
+    padding: 50px;
+    margin: 10px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.number-order{    
+    font-family: "Poppins",sans-serif;
+    font-weight: bold;
+    background: #0C052B;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;    
+    border: 1px solid  #0C052B;
+    border-radius: 50%;
+    display: inline-block;
+    width: 22px;
+    height: 22px; 
+    padding: 10px;
+}
+
+.header-order{
+    padding-top: 10%;
+}
+
+.explanation-order{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-top: 15%;
+    color: #232228;
+    font-size: 20px;
+}
+
+/* Image Gallery */
+.car-gallery{
+    width: 100%;
+    /* background: #ffffff; */
+    background: -webkit-linear-gradient(to right, #3508FF, #140949);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3508FF, #140949); 
+    height: 100%;
+}
+
+/* 
+#481FFF
+
+*** Primary color:
+
+    shade 0 = #481FFF = rgb( 72, 31,255) = rgba( 72, 31,255,1) = rgb0(0.282,0.122,1)
+    shade 1 = #8C73FD = rgb(140,115,253) = rgba(140,115,253,1) = rgb0(0.549,0.451,0.992)
+    shade 2 = #6A49FF = rgb(106, 73,255) = rgba(106, 73,255,1) = rgb0(0.416,0.286,1)
+    shade 3 = #3508FF = rgb( 53,  8,255) = rgba( 53,  8,255,1) = rgb0(0.208,0.031,1)
+    shade 4 = #2501C5 = rgb( 37,  1,197) = rgba( 37,  1,197,1) = rgb0(0.145,0.004,0.773)
+
+    *** Secondary color (1):
+
+    shade 0 = #9B10FF = rgb(155, 16,255) = rgba(155, 16,255,1) = rgb0(0.608,0.063,1)
+    shade 1 = #BF6AFD = rgb(191,106,253) = rgba(191,106,253,1) = rgb0(0.749,0.416,0.992)
+    shade 2 = #AE3DFF = rgb(174, 61,255) = rgba(174, 61,255,1) = rgb0(0.682,0.239,1)
+    shade 3 = #9604FF = rgb(150,  4,255) = rgba(150,  4,255,1) = rgb0(0.588,0.016,1)
+    shade 4 = #7101C2 = rgb(113,  1,194) = rgba(113,  1,194,1) = rgb0(0.443,0.004,0.761)
+
+    *** Secondary color (2):
+
+    shade 0 = #FFF800 = rgb(255,248,  0) = rgba(255,248,  0,1) = rgb0(1,0.973,0)
+    shade 1 = #FFFB60 = rgb(255,251, 96) = rgba(255,251, 96,1) = rgb0(1,0.984,0.376)
+    shade 2 = #FFFA30 = rgb(255,250, 48) = rgba(255,250, 48,1) = rgb0(1,0.98,0.188)
+    shade 3 = #FFF800 = rgb(255,248,  0) = rgba(255,248,  0,1) = rgb0(1,0.973,0)
+    shade 4 = #FFF800 = rgb(255,248,  0) = rgba(255,248,  0,1) = rgb0(1,0.973,0)
+
+    *** Complement color:
+
+    shade 0 = #FFCE00 = rgb(255,206,  0) = rgba(255,206,  0,1) = rgb0(1,0.808,0)
+    shade 1 = #FFE060 = rgb(255,224, 96) = rgba(255,224, 96,1) = rgb0(1,0.878,0.376)
+    shade 2 = #FFD730 = rgb(255,215, 48) = rgba(255,215, 48,1) = rgb0(1,0.843,0.188)
+    shade 3 = #FFCE00 = rgb(255,206,  0) = rgba(255,206,  0,1) = rgb0(1,0.808,0)
+    shade 4 = #FFCE00 = rgb(255,206,  0) = rgba(255,206,  0,1) = rgb0(1,0.808,0)
+
+    *** Primary color:
+
+    shade 0 = #64636A = rgb(100, 99,106) = rgba(100, 99,106,1) = rgb0(0.392,0.388,0.416)
+    shade 1 = #706C83 = rgb(112,108,131) = rgba(112,108,131,1) = rgb0(0.439,0.424,0.514)
+    shade 2 = #57565F = rgb( 87, 86, 95) = rgba( 87, 86, 95,1) = rgb0(0.341,0.337,0.373)
+    shade 3 = #4B4955 = rgb( 75, 73, 85) = rgba( 75, 73, 85,1) = rgb0(0.294,0.286,0.333)
+    shade 4 = #403D4A = rgb( 64, 61, 74) = rgba( 64, 61, 74,1) = rgb0(0.251,0.239,0.29)
+
+    *** Secondary color (1):
+
+    shade 0 = #646067 = rgb(100, 96,103) = rgba(100, 96,103,1) = rgb0(0.392,0.376,0.404)
+    shade 1 = #75677F = rgb(117,103,127) = rgba(117,103,127,1) = rgb0(0.459,0.404,0.498)
+    shade 2 = #58525C = rgb( 88, 82, 92) = rgba( 88, 82, 92,1) = rgb0(0.345,0.322,0.361)
+    shade 3 = #4D4653 = rgb( 77, 70, 83) = rgba( 77, 70, 83,1) = rgb0(0.302,0.275,0.325)
+    shade 4 = #433B48 = rgb( 67, 59, 72) = rgba( 67, 59, 72,1) = rgb0(0.263,0.231,0.282)
+
+    *** Secondary color (2):
+
+    shade 0 = #99998E = rgb(153,153,142) = rgba(153,153,142,1) = rgb0(0.6,0.6,0.557)
+    shade 1 = #BDBC98 = rgb(189,188,152) = rgba(189,188,152,1) = rgb0(0.741,0.737,0.596)
+    shade 2 = #89887A = rgb(137,136,122) = rgba(137,136,122,1) = rgb0(0.537,0.533,0.478)
+    shade 3 = #7B7A68 = rgb(123,122,104) = rgba(123,122,104,1) = rgb0(0.482,0.478,0.408)
+    shade 4 = #6C6B56 = rgb(108,107, 86) = rgba(108,107, 86,1) = rgb0(0.424,0.42,0.337)
+
+    *** Complement color:
+
+    shade 0 = #99978E = rgb(153,151,142) = rgba(153,151,142,1) = rgb0(0.6,0.592,0.557)
+    shade 1 = #BDB698 = rgb(189,182,152) = rgba(189,182,152,1) = rgb0(0.741,0.714,0.596)
+    shade 2 = #89867A = rgb(137,134,122) = rgba(137,134,122,1) = rgb0(0.537,0.525,0.478)
+    shade 3 = #7B7768 = rgb(123,119,104) = rgba(123,119,104,1) = rgb0(0.482,0.467,0.408)
+    shade 4 = #6C6856 = rgb(108,104, 86) = rgba(108,104, 86,1) = rgb0(0.424,0.408,0.337)
+
+
+
+    DARK NEON
+    *** Primary color:
+
+    shade 0 = #211268 = rgb( 33, 18,104) = rgba( 33, 18,104,1) = rgb0(0.129,0.071,0.408)
+    shade 1 = #2F15A2 = rgb( 47, 21,162) = rgba( 47, 21,162,1) = rgb0(0.184,0.082,0.635)
+    shade 2 = #2A1780 = rgb( 42, 23,128) = rgba( 42, 23,128,1) = rgb0(0.165,0.09,0.502)
+    shade 3 = #140949 = rgb( 20,  9, 73) = rgba( 20,  9, 73,1) = rgb0(0.078,0.035,0.286)
+    shade 4 = #0C052B = rgb( 12,  5, 43) = rgba( 12,  5, 43,1) = rgb0(0.047,0.02,0.169)
+
+    *** Secondary color (1):
+
+    shade 0 = #3F0B65 = rgb( 63, 11,101) = rgba( 63, 11,101,1) = rgb0(0.247,0.043,0.396)
+    shade 1 = #600B9D = rgb( 96, 11,157) = rgba( 96, 11,157,1) = rgb0(0.376,0.043,0.616)
+    shade 2 = #4F0F7D = rgb( 79, 15,125) = rgba( 79, 15,125,1) = rgb0(0.31,0.059,0.49)
+    shade 3 = #2B0447 = rgb( 43,  4, 71) = rgba( 43,  4, 71,1) = rgb0(0.169,0.016,0.278)
+    shade 4 = #19032A = rgb( 25,  3, 42) = rgba( 25,  3, 42,1) = rgb0(0.098,0.012,0.165)
+
+    *** Secondary color (2):
+
+    shade 0 = #979308 = rgb(151,147,  8) = rgba(151,147,  8,1) = rgb0(0.592,0.576,0.031)
+    shade 1 = #EBE502 = rgb(235,229,  2) = rgba(235,229,  2,1) = rgb0(0.922,0.898,0.008)
+    shade 2 = #BAB50B = rgb(186,181, 11) = rgba(186,181, 11,1) = rgb0(0.729,0.71,0.043)
+    shade 3 = #696700 = rgb(105,103,  0) = rgba(105,103,  0,1) = rgb0(0.412,0.404,0)
+    shade 4 = #3E3D00 = rgb( 62, 61,  0) = rgba( 62, 61,  0,1) = rgb0(0.243,0.239,0)
+
+    *** Complement color:
+
+    shade 0 = #977B08 = rgb(151,123,  8) = rgba(151,123,  8,1) = rgb0(0.592,0.482,0.031)
+    shade 1 = #EBBE02 = rgb(235,190,  2) = rgba(235,190,  2,1) = rgb0(0.922,0.745,0.008)
+    shade 2 = #BA980B = rgb(186,152, 11) = rgba(186,152, 11,1) = rgb0(0.729,0.596,0.043)
+    shade 3 = #695500 = rgb(105, 85,  0) = rgba(105, 85,  0,1) = rgb0(0.412,0.333,0)
+    shade 4 = #3E3200 = rgb( 62, 50,  0) = rgba( 62, 50,  0,1) = rgb0(0.243,0.196,0)
+*/
+
