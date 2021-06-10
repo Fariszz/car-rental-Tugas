@@ -4,6 +4,7 @@ body{
 
 .landing-page{
     background-color: #ffffff;
+    /* background-color: #00296F; */
     background-size: 100%;
 }
 
@@ -29,6 +30,7 @@ body{
     font-family: "Poppins",sans-serif;
     font-weight: 500;
     color: #6B6E70;
+    /* color: #ffffff; */
 }
 
 /* .top-nav button{
@@ -62,6 +64,7 @@ body{
 .register-btn{
     border: 2px solid #3466AA;
     background-color: #ffffff;
+    /* background-color: #1c2e4a; */
     color: #3466AA;
     border-radius: 50px;
     width: 80px;
@@ -84,6 +87,7 @@ body{
 
 .left-page h1{    
     color: #222629;
+    /* color: #ffffff; */
     font-style: normal;    
     font-weight: 800;
     line-height: 72px;
@@ -96,6 +100,7 @@ body{
 
 .left-page p{
     color: #6B6E70;
+    /* color: #ffffff; */
     font-weight: 500;
     margin-left: 100px;
     margin-right: 10%;
