@@ -1,7 +1,7 @@
 <?php 
     include "koneksi.php";
 
-    $id = $_GET['passAdmin'];  
+    $id = $_POST['passAdmin'];  
 
     $query = "UPDATE admin SET password_admin = '$id'";
     $result = mysqli_query($connect, $query);

@@ -15,6 +15,7 @@
             <th> Tipe Mobil </th>
             <th> Merk Mobil</th>
             <th> Stok Mobil</th>
+            <th> Image Mobil </th>
             <th> </th>
             <th> </th>
         </tr>
@@ -23,16 +24,18 @@
             include "koneksi.php";
 
             $query = "SELECT * FROM mobil";
-            $result = mysqli_query($connect, $query);            
+            $result = mysqli_query($connect, $query);     
+                        
 
             if (mysqli_num_rows($result) > 0) {
-                while ($row = mysqli_fetch_array($result)) {                                
+                while ($row = mysqli_fetch_array($result)) {                                                    
         ?>
-        <tr>
+        <tr>            
             <td> <?php echo $row['kode_mobil']?> </td>
             <td> <?php echo $row["tipe_mobil"]?> </td>
             <td> <?php echo $row["merk_mobil"]?> </td>
             <td> <?php echo $row["stok_mobil"]?> </td>
+            <td> <img src="<?php echo $imageURL = 'uploads/'.$row["file_name"]; ?>" alt="" style="width: 120px;"></td>
             <td>  <a href="editForm.php?id=<?php echo $row['kode_mobil']?>"> Update </a></td>
             <td> <a href="hapus.php?id=<?php echo $row['kode_mobil'];?>">Hapus</a> </td>
         <?php          

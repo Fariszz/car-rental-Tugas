@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/car-rental-Tugas/Dashboard/UserManagement/style.css" />
     <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/validasi.js"></script>
 </head>
 <body>
         <!-- The sidebar -->
@@ -39,10 +40,10 @@
             </div>
         </div>
         <div class="right-content">
-            <form action="prosesEdit.php" method="GET">
+            <form action="prosesEdit.php" method="POST" onsubmit="return validasi()">
                 <div class="card">
                     <!-- <p>Card 2</p> -->
-                    <input type="text" name="passAdmin" class="inputBox" placeholder="Change Password">
+                    <input type="text" name="passAdmin" class="inputBox" placeholder="Change Password" >
                 </div>
                 <!-- <div class="card">
                     <input type="text" name="TipeMobil" class="inputBox" placeholder="Nama Customer">

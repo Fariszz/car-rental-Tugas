@@ -50,7 +50,7 @@
             </div>
         </div>        
         <div class="right-content">
-            <form action="insertProses.php" method="POST">
+            <form action="insertProses.php" method="POST" enctype="multipart/form-data">
                 <div class="card">
                     <!-- <p>Card 2</p> -->
                     <input type="text" name="kodeMobil" class="inputBox" placeholder="Kode Mobil">
@@ -63,13 +63,13 @@
                 </div>
                 <div class="card">
                     <input type="number" name="stokMobil" class="inputBox" placeholder="Stok Mobil">
-                </div>
+                </div>                
                 <div class="image_upload">
-                    <input type="file" name="" id="file">
+                    <input type="file" name="file" id="file">
                     <label for="file" class="input_upload">
                         Choose Image
                     </label>
-                </div>
+                </div>                
                 <div class="submit-button">
                     <input type="submit" name="kirim" id="submit">
                     <label for="submit" class="submit-btn">
