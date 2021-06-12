@@ -185,6 +185,26 @@ body{
 .custom-shape-divider-bottom-1623349078 .shape-fill {
     fill: #FFFCF6;
 }
+/* .custom-shape-divider-bottom-1623417247 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1623417247 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 235px;
+}
+
+.custom-shape-divider-bottom-1623417247 .shape-fill {
+    fill: #FFFFFF;
+} */
 
 .service{
     width: 100%;
@@ -209,6 +229,7 @@ body{
     color: #232228;
 }
 
+
 .col-order{    
     width: 250px;
     height: 300px;
@@ -219,7 +240,7 @@ body{
     padding: 50px;
     margin: 10px;
     margin-left: 10%;
-    text-align: center;
+    text-align: center;    
 }
 
 .number-order{    
@@ -253,13 +274,70 @@ body{
 .car-gallery{
     width: 100%;
     /* background: #ffffff; */
-    background: -webkit-linear-gradient(to right, #3508FF, #140949);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3508FF, #140949); 
+    /* background: -webkit-linear-gradient(to right, #3508FF, #140949);  
+    background: linear-gradient(to right, #3508FF, #140949);  */
     height: 100%;
+    /* overflow: hidden; */
 }
 
+/* .custom-shape-divider-top-1623380883 {
+    position: absolute;
+    top: 1525;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1623380883 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1623380883 .shape-fill {
+    fill: #FFFFFF;
+} */
+
+.custom-shape-divider-top-1623381235 {
+    position: absolute;
+    top: 1510;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1623381235 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1623381235 .shape-fill {
+    fill: #FFFCF6;
+}
+
+/* Gallery  */
+
+
+/* .left-gallery-page{
+    width: 40%;
+    float: left;
+    background-color: yellow;
+}
+
+.right-page-page{
+    width: 60%;
+    float: right;
+    background-color: red;
+} */
+
 /* 
-#481FFF
+
 
 *** Primary color:
 
