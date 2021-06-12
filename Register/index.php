@@ -13,9 +13,6 @@
 
     <div class="login-kotak-kotak">
       <font size="64px">Register</font><br><br><br>
-      <div class="kotakteks">
-        <input type="text" placeholder="Full Name " name="name" id="name">
-      </div>
 
       <br><br>
 
@@ -62,7 +59,6 @@
 
 
 function validasi() {
-      var name = document.getElementById("name").value;
       var email = document.getElementById("email").value;
       var username = document.getElementById("username").value;
       var password = document.getElementById("password").value;
