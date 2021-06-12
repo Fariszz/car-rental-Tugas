@@ -324,17 +324,19 @@ body{
 /* Gallery  */
 
 
-/* .left-gallery-page{
+.left-gallery-page{
     width: 40%;
     float: left;
     background-color: yellow;
+    height: 100%;
 }
 
-.right-page-page{
+.right-gallery-page{
     width: 60%;
-    float: right;
+    float: left;
     background-color: red;
-} */
+    height: 100%;
+}
 
 /* 
 
