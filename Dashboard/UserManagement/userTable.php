@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="styleBooking.css">
 </head>
 <body>
+<div class="card">
+        <div class="submit-button">
+            <a href="../UserManagement">                        
+                    <label class="submit-btn-list">
+                        Input User                    </label>
+            </a>                    
+        </div>
+    </div>
     <table class="content-table">
         <thead>
         <tr>

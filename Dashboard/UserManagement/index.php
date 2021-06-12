@@ -41,7 +41,7 @@
             <div class="card">
                 <div class="submit-button">
                     <a href="userTable.php">                        
-                            <label class="submit-btn-list">
+                            <label class="submit-btn">
                                 Cek Daftar User
                             </label>
                     </a>                    

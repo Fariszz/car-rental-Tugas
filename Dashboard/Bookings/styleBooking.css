@@ -36,3 +36,21 @@ tr:nth-child(even){
 .content-table td {
     padding: 12px 15px;
 }
+
+.submit-btn-list{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(233, 125, 2);    
+    padding-top: 1%;
+    height: 40px;
+    width: 350px;
+    font-size: 20px;
+    display: flex;
+    display: inline-block;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
