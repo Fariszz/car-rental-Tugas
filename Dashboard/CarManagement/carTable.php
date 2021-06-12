@@ -6,8 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabel Mobil</title>
     <link rel="stylesheet" href="styleCar.css">
+    
 </head>
 <body>
+    <div class="card">
+        <div class="submit-button">
+            <a href="../CarManagement">                        
+                    <label class="submit-btn-list">
+                        Input Mobil
+                    </label>
+            </a>                    
+        </div>
+    </div>
     <table class="content-table">
         <thead>
         <tr>
@@ -30,7 +40,8 @@
             if (mysqli_num_rows($result) > 0) {
                 while ($row = mysqli_fetch_array($result)) {                                                    
         ?>
-        <tr>            
+        <tr>         
+            <div class="isi-table">
             <td> <?php echo $row['kode_mobil']?> </td>
             <td> <?php echo $row["tipe_mobil"]?> </td>
             <td> <?php echo $row["merk_mobil"]?> </td>
@@ -38,6 +49,7 @@
             <td> <img src="<?php echo $imageURL = 'uploads/'.$row["file_name"]; ?>" alt="" style="width: 120px;"></td>
             <td>  <a href="editForm.php?id=<?php echo $row['kode_mobil']?>"> Update </a></td>
             <td> <a href="hapus.php?id=<?php echo $row['kode_mobil'];?>">Hapus</a> </td>
+            </div>
         <?php          
                 }
             }else{
