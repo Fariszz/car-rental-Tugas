@@ -64,7 +64,7 @@ function validasi() {
       var password = document.getElementById("password").value;
       var Rpassword = document.getElementById("Rpassword").value;
 
-      if (name != "" && email !="" && username !="" && password !="" && Rpassword !="") {
+      if ( email !="" && username !="" && password !="" && Rpassword !="") {
         return true;
       }else{
         alert('Silahkan mengisi data dengan lengkap');
