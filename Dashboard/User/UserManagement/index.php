@@ -22,10 +22,8 @@
             </div>            
         </div>
         <a href="\car-rental-Tugas\Dashboard\"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-        <a href="\car-rental-Tugas\Dashboard\Bookings\"><i class="fa fa-book"></i>Bookings</a>
-        <a href="\car-rental-Tugas\Dashboard\CarManagement\"><i class="fa fa-car"></i>Car Management</a>
-        <a class="active" href="\car-rental-Tugas\Dashboard\UserManagement\"><i class="fa fa-users"></i>User Management</a>
-        <a href="\car-rental-Tugas\Dashboard\Admin\"><i class="fa fa-user"></i>Admin</a>
+        <a href="\car-rental-Tugas\Dashboard\User\Bookings\"><i class="fa fa-book"></i>Bookings</a>        
+        <a class="active" href="\car-rental-Tugas\Dashboard\User\UserManagement\"><i class="fa fa-users"></i>User Management</a>        
     </div>
     
     <!-- Page content -->
