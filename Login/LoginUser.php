@@ -1,25 +1,25 @@
-<?php
-   include("koneksi.php");
-   validasi
-   if($_SERVER["REQUEST_METHOD"] == "POST") {
-      
-      $username = mysqli_real_escape_string($db,$_POST['username']);
-      $password = mysqli_real_escape_string($db,$_POST['password']); 
-      
-      $sql = "SELECT id FROM admin WHERE username = '$username' and passcode = '$password'";
-      $result = mysqli_query($db,$sql);
-      $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
-      $active = $row['active'];
-      
-      $count = mysqli_num_rows($result);
-		
-      if($count == 1) {
-         session_register("username");
-         $_SESSION['login_user'] = $username;
-         
-         header("####.php");
-      }else {
-         $error = "Login Name or Password is invalid";
-      }
-   }
+<?php 
+    include "koneksi.php";
+
+    $username = $_POST['username'];
+    $password = md5($_POST['password']);
+
+    $query = "SELECT * FROM login WHERE username='$username' AND password='$password'";
+    $result = mysqli_query($connect, $query);
+    $row = mysqli_fetch_assoc($result);
+
+    if ($row['LEVEL'] == 1) {
+        echo "Anda berhasil login. silahkan menuju ";?>
+        <a href="homeAdmin.html">Halaman HOME</a>
+    <?php
+    }else if($row['LEVEL'] == 2){
+        echo "Anda berhasil login. silahkan menuju "; ?>
+        <a href="homeGuest.html">Halaman HOME</a>
+    <?php
+    }else{
+        echo "Anda gagal login. silahkan "; ?>
+        <a href="loginForm.html">Login kembali</a>
+    <?php
+        echo mysqli_error($connect);
+    }
 ?>
