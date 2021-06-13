@@ -78,7 +78,7 @@ body{
     font-size: 25px;    
 }
 
-.center-nav:hover a{
+.center-nav a:hover{
     color: red;
 }
 
@@ -276,9 +276,9 @@ body{
 .car-gallery{
     width: 100%;
     /* background: #ffffff; */
-    /* background: -webkit-linear-gradient(to right, #3508FF, #140949);  
-    background: linear-gradient(to right, #3508FF, #140949);  */
-    height: 100%;
+    background: -webkit-linear-gradient(to right, #3508FF, #140949);  
+    background: linear-gradient(to right, #3508FF, #140949); 
+    height: 90%;
     /* overflow: hidden; */
 }
 
@@ -325,20 +325,75 @@ body{
 
 /* Gallery  */
 
-
+/* Kiri */
 .left-gallery-page{
-    width: 40%;
-    float: left;
-    background-color: yellow;
-    height: 100%;
-}
-
-.right-gallery-page{
     width: 60%;
     float: left;
-    background-color: red;
+    /* background-color: yellow; */
     height: 100%;
 }
+
+.left-gallery-page img{
+    margin-top: 15%;
+    margin-left: 15%;
+    width: 700px;
+}
+
+/* Kanan */
+.right-gallery-page{
+    width: 40%;
+    float: left;
+    /* background-color: red; */
+    height: 100%;
+}
+
+.right-gallery-page h1{
+    color: #ffffff;
+    font-style: normal;    
+    font-weight: 800;
+    line-height: 72px;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    display: block;
+    margin-left: 100px;
+    margin-top: 30%;
+}
+
+.right-gallery-page p{    
+    /* color: #6B6E70; */
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: block;    
+    font: "Poppins",sans-serif;
+    font-size: 18px;    
+}
+
+.custom-shape-divider-bottom-1623564661 {
+    position: absolute;
+    bottom: -1450;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1623564661 svg {
+    position: relative;
+    display: block;
+    width: calc(173% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1623564661 .shape-fill {
+    fill: #FFFCF6;
+}
+
+/* Contact */
+
 
 /* 
 

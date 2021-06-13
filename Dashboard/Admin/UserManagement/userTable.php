@@ -6,13 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabel Mobil</title>
     <link rel="stylesheet" href="styleBooking.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script>
+            $(document).ready(function(){
+                $(".submit-btn-show").click(function(){
+                    $(".content-table").slideToggle("slow");
+                });
+            });
+    </script>
 </head>
 <body>
-<div class="card">
+    <div class="card">
         <div class="submit-button">
             <a href="../UserManagement">                        
-                    <label class="submit-btn-list">
-                        Input User                    </label>
+                    <label class="submit-btn-list">Input User </label>
+            </a>                    
+        </div>
+    </div>
+    <div class="card">
+        <div class="submit-button" >
+            <a>                        
+                    <label class="submit-btn-show">Show Table </label>
             </a>                    
         </div>
     </div>

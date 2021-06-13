@@ -47,6 +47,7 @@
                     </a>                    
                 </div>
             </div>
+
         </div>
         <div class="right-content">
             <form action="insertProses.php" method="POST">
