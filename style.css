@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background: #FFFCF6;
 }
 
 .landing-page{
@@ -210,6 +211,7 @@ body{
     width: 100%;
     /* background: #ffffff; */
     background: #FFFCF6;
+    /* background: red; */
     height: 70%;
     
 }
