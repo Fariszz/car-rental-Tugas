@@ -17,8 +17,10 @@
         <a href="homeGuest.html">Halaman HOME</a>
     <?php
     }else{
-        echo "Anda gagal login. silahkan "; ?>
-        <a href="loginForm.html">Login kembali</a>
+        header("location:index.php");
+        // echo "Anda gagal login. silahkan "; ?>
+        <script>console.log("gagal");</script>
+        <!-- <a href="loginForm.html">Login kembali</a> -->
     <?php
         echo mysqli_error($connect);
     }

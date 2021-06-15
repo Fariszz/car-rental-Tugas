@@ -8,7 +8,7 @@
 
 <body>
 
-  <form action="Register.php" method="POST" onsubmit="return validasi()">
+  <form action="RegisterUser.php" method="POST" onsubmit="return validasi()">
   <div class="left-page">
 
     <div class="login-kotak-kotak">
