@@ -5,15 +5,15 @@
     $password = md5($_POST['password']);
     $email    =$_POST['email'];
 
-    $query = ("INSERT INTO login ([username], [password], [email]) VALUES ('$username', '$password', '$email')");
+    $query = "INSERT INTO login (username, password, email) VALUES ('$username', '$password', '$email')";
     $result = mysqli_query($connect, $query);
+    $num	  = mysqli_affected_rows($connect);
 
-    if(mysqli_query($query)){
-        echo "<script>alert('INSERTED SUCCESSFULLY');</script>";
+    if($num > 0) {
+        header('location:../Login/index.php');
         
-        }else{
-        
-         echo "<script>alert('FAILED TO INSERT');</script>";
-         }
+    } else{	
+        header("location:index.php");
+    }
 
 ?>
