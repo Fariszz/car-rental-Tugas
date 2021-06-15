@@ -71,3 +71,14 @@ div.content {
     padding: 1px 16px;
     height: 1000px;
 }
+
+.logout{
+    margin-top: 200%;
+}
+
+.logout a{
+    display: block;
+    color: #A4A6B3;
+    padding: 16px;    
+    text-decoration: none;    
+}

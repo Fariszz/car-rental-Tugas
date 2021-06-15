@@ -26,6 +26,7 @@
         <a href="\car-rental-Tugas\Dashboard\Admin\CarManagement\"><i class="fa fa-car"></i>Car Management</a>
         <a class="active" href="\car-rental-Tugas\Dashboard\Admin\UserManagement\"><i class="fa fa-users"></i>User Management</a>
         <a href="\car-rental-Tugas\Dashboard\Admin\Admin\"><i class="fa fa-user"></i>Admin</a>
+        <a class="logout"><i class="fa fa-sign-out"></i>Logout</a>
     </div>
     
     <!-- Page content -->
