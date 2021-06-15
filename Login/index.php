@@ -27,7 +27,7 @@
   </div>
   
   <div class="newacc">
-  <a href="/Register/index.html">Create New Acc</a>
+  <a href="../Register/index.php">Create New Acc</a>
   </div>
 </div>
 </div>

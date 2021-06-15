@@ -9,16 +9,19 @@
     $row = mysqli_fetch_assoc($result);
 
     if ($row['LEVEL'] == 1) {
-        echo "Anda berhasil login. silahkan menuju ";?>
-        <a href="homeAdmin.html">Halaman HOME</a>
+
+        header('location:../Dashboard/Admin/index.html');?>
     <?php
+
     }else if($row['LEVEL'] == 2){
-        echo "Anda berhasil login. silahkan menuju "; ?>
-        <a href="homeGuest.html">Halaman HOME</a>
+        header('location:../Dashboard/user/index.html');?>
     <?php
     }else{
-        echo "Anda gagal login. silahkan "; ?>
-        <a href="loginForm.html">Login kembali</a>
+
+        header("location:index.php");
+        // echo "Anda gagal login. silahkan "; ?>
+        <script>console.log("gagal");</script>
+        <!-- <a href="loginForm.html">Login kembali</a> -->
     <?php
         echo mysqli_error($connect);
     }
