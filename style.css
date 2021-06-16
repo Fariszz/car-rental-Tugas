@@ -79,7 +79,8 @@ body{
 }
 
 .center-nav a:hover{
-    color: red;
+    color: #FFA400;
+    text-decoration: solid;
 }
 
 .register-btn{
