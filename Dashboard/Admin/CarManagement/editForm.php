@@ -28,11 +28,11 @@
                 <p>Muhammad Faris</p>
             </div>            
         </div>
-        <a href="\car-rental-Tugas\Dashboard"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-        <a href="\car-rental-Tugas\Dashboard\Bookings"><i class="fa fa-book"></i>Bookings</a>
+        <a href="\car-rental-Tugas\Dashboard\Admin"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+        <a href="\car-rental-Tugas\Dashboard\Admin\Bookings"><i class="fa fa-book"></i>Bookings</a>
         <a class="active" href=""><i class="fa fa-car"></i>Car Management</a>
-        <a href="\car-rental-Tugas\Dashboard\UserManagement"><i class="fa fa-users"></i>User Management</a>
-        <a href="\car-rental-Tugas\Dashboard\Admin"><i class="fa fa-user"></i>Admin</a>
+        <a href="\car-rental-Tugas\Dashboard\Admin\UserManagement"><i class="fa fa-users"></i>User Management</a>
+        <a href="\car-rental-Tugas\Dashboard\Admin\Admin"><i class="fa fa-user"></i>Admin</a>
     </div>
     
     <!-- Page content -->
@@ -55,7 +55,7 @@
             ?>
                 <div class="card">
                     <!-- <p>Card 2</p> -->
-                    <input type="text" name="kodeMobil" class="inputBox" placeholder="Kode Mobil" value="<?php echo  $row['kode_mobil'] ;?>">
+                    <!-- <input type="text" name="kodeMobil" class="inputBox" placeholder="Kode Mobil" value="<?php echo  $row['kode_mobil'] ;?>"> -->
                 </div>
                 <div class="card">
                     <input type="text" name="tipeMobil" class="inputBox" placeholder="Tipe Mobil" value="<?php echo  $row['tipe_mobil'] ;?>">

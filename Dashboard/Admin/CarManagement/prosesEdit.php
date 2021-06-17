@@ -1,12 +1,12 @@
 <?php 
     include "koneksi.php";
 
-    $id = $_POST['kodeMobil'];
+    // $id = $_POST['kodeMobil'];
     $tipe = $_POST['tipeMobil'];
     $merk = $_POST['merkMobil'];
     $stok = $_POST['stokMobil'];     
 
-    $query = "UPDATE mobil SET kode_mobil='$id', tipe_mobil='$tipe', merk_mobil='$merk', stok_mobil='$stok'";
+    $query = "UPDATE mobil SET tipe_mobil='$tipe', merk_mobil='$merk', stok_mobil='$stok'";
     $result = mysqli_query($connect, $query);
 
     if ($result) {

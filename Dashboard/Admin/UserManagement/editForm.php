@@ -28,11 +28,11 @@
                 <p>Muhammad Faris</p>
             </div>            
         </div>
-        <a href="\car-rental-Tugas\Dashboard"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-        <a href="\car-rental-Tugas\Dashboard\Bookings"><i class="fa fa-book"></i>Bookings</a>
-        <a href="\car-rental-Tugas\Dashboard\CarManagement"><i class="fa fa-car"></i>Car Management</a>
-        <a class="active" href="\car-rental-Tugas\Dashboard\UserManagement"><i class="fa fa-users"></i>User Management</a>
-        <a href="\car-rental-Tugas\Dashboard\Admin"><i class="fa fa-user"></i>Admin</a>
+        <a href="\car-rental-Tugas\Dashboard\Admin"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+        <a href="\car-rental-Tugas\Dashboard\Admin\Bookings"><i class="fa fa-book"></i>Bookings</a>
+        <a href="\car-rental-Tugas\Dashboard\Admin\CarManagement"><i class="fa fa-car"></i>Car Management</a>
+        <a class="active" href="\car-rental-Tugas\Dashboard\Admin\UserManagement"><i class="fa fa-users"></i>User Management</a>
+        <a href="\car-rental-Tugas\Dashboard\Admin\Admin"><i class="fa fa-user"></i>Admin</a>
     </div>
     
     <!-- Page content -->
@@ -53,10 +53,10 @@
             <?php 
                 while ($row = mysqli_fetch_array($result)){
             ?>
-                <div class="card">
-                    <!-- <p>Card 2</p> -->
+                <!-- <div class="card">
+                    
                     <input type="text" name="IDCustomer" class="inputBox" placeholder="ID Customer" value="<?php echo  $row['id_customer'] ;?>">
-                </div>
+                </div> -->
                 <div class="card">
                     <input type="text" name="nikCustomer" class="inputBox" placeholder="NIK Customer" value="<?php echo  $row['nik_customer'] ;?>">
                 </div>
