@@ -2,7 +2,7 @@
     $namaHost = "localhost";
     $username = "root";
     $password = "";
-    $database = "rental_mobil_2";
+    $database = "rental_mobil";
 
     $connect = mysqli_connect($namaHost,$username,$password,$database);
 
