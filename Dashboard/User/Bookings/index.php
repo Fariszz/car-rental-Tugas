@@ -23,7 +23,7 @@
         <a href="\car-rental-Tugas\Dashboard\User\"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
         <a class="active" href="\car-rental-Tugas\Dashboard\User\Bookings\"><i class="fa fa-book"></i>Bookings</a>        
         <a href="\car-rental-Tugas\Dashboard\User\UserManagement\"><i class="fa fa-users"></i>User Management</a>    
-        <a class="logout"><i class="fa fa-sign-out"></i>Logout</a>    
+        <a class="logout" href="\car-rental-Tugas\Login\index.php"><i class="fa fa-sign-out"></i>Logout</a>
     </div>
     
     <!-- Page content -->
