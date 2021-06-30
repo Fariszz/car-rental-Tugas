@@ -14,7 +14,7 @@
 
         if (mysqli_query($connect, $sql)) {
             // echo "\nData berhasil ditambahkan";
-            header("location:/car-rental-Tugas/Dashboard/Bookings");
+            header("location:/car-rental-Tugas/Dashboard/user/Bookings/");
         }else{
             echo "Data gagal ditambahkan <br> " . mysqli_error($connect);
         }

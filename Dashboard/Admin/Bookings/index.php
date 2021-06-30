@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="right-content">
-            <form action="insertProses.php" method="GET">
+            <form action="insertProses.php" method="POST">
                 <div class="card">
                     <!-- <p>Card 2</p> -->
                     <input type="text" name="kodeSewa" class="inputBox" placeholder="Kode Sewa">
