@@ -18,7 +18,7 @@
                 <i class="fa fa-user-circle-o"></i>
             </div>            
             <div class="user-name">
-                <p>Muhammad Faris</p>
+                <p>Welcome User</p>
             </div>            
         </div>
         <a href="\car-rental-Tugas\Dashboard\"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
